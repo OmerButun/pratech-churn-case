@@ -30,3 +30,19 @@ Modelimizin istatistiksel çıktıları doğrultusunda pazarlama bütçesini opt
 1. **Mikro-Hedefleme:** Modelin `predict_proba` çıktılarına göre sistemi terk etme ihtimali en yüksek (Risk Skoru > %80) olan VIP risk grubuna acil müdahale edilmelidir.
 2. **Kişiselleştirilmiş İndirim:** Riskli gruba genel reklamlar çıkmak yerine, veri setinde tutunmaya güçlü bir etkisi olduğu tespit edilen "Cashback (Para İadesi)" kurgusu üzerinden anlık hediye bakiyeler tanımlanmalıdır.
 3. **Proaktif Şikayet Yönetimi:** Sistemde şikayeti bulunan riskli müşterilerin geçmiş destek talepleri önceliklendirilerek hızlıca çözüme kavuşturulmalıdır.
+
+## 🚀 Kurulum ve Çalıştırma
+Projeyi kendi yerel bilgisayarınızda test etmek için terminalinizde aşağıdaki komutları sırasıyla çalıştırabilirsiniz:
+
+## 🚀 Kurulum ve Çalıştırma
+Projeyi kendi yerel bilgisayarınızda test etmek için terminalinizde aşağıdaki komutları sırasıyla çalıştırabilirsiniz:
+
+```bash
+# Repoyu bilgisayarınıza indirin
+git clone https://github.com/OmerButun/pratech-churn-case.git
+
+# Proje dizinine girin
+cd pratech-churn-case
+
+# Gerekli kütüphaneleri kurun
+pip install -r requirements.txt
